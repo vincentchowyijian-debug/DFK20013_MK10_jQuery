@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+<div data-role="page">
+
+
+    <div data-role="header">
+        <h1>Login System</h1>
+    </div>
+
+  
+    <div data-role="content">
+
+        <form action="login.php" method="post" onsubmit="return semak()">
+
+            <label>Username:</label>
+            <input type="text" id="username" name="username">
+
+            <label>Password:</label>
+            <input type="password" id="password" name="password">
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+    </div>
+
+    <div data-role="footer">
+        <h4>My Login Page</h4>
+    </div>
+
+</div>
+
+</body>
+</html>                                                                                                                                                                                                                                                     
